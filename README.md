@@ -1,6 +1,6 @@
 # Electricity Peak Demand Forecasting
 
-A time series forecasting project that predicts electricity peak demand using the Holt-Winters exponential smoothing method.
+A time series forecasting project that predicts electricity peak demand using the Holt-Winters exponential smoothing and SARIMAX methods.
 
 ## Overview
 
@@ -17,7 +17,7 @@ This project implements Holt-Winters and SARIMAX forecasting techniques to predi
 
 ```
 electricity_peak_demand_forecasting/
-├── Holt_winters.ipynb    # Main Jupyter notebook with analysis and forecasting
+├── Holt_winters_SARIMAX.ipynb    # Main Jupyter notebook with analysis and forecasting
 └── README.md             # Project documentation
 ```
 
@@ -59,16 +59,11 @@ jupyter notebook
 
 ## Methodology
 
-The project uses the **Holt-Winters Exponential Smoothing** method, which accounts for: 
+The project uses the **Holt-Winters Exponential Smoothing and SARIMAX** methods, which account for: 
 
 - **Level**: The average value in the series
 - **Trend**: The increasing or decreasing pattern in the data
 - **Seasonality**:  Repeating patterns over fixed periods (daily, weekly, seasonal variations)
-
-This triple exponential smoothing approach is well-suited for electricity demand data that typically shows:
-- Daily patterns (higher demand during day, lower at night)
-- Weekly patterns (weekday vs weekend usage)
-- Seasonal patterns (higher in summer/winter due to climate control)
 
 ## Results
 
