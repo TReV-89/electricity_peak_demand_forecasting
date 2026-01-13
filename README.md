@@ -4,12 +4,12 @@ A time series forecasting project that predicts electricity peak demand using th
 
 ## Overview
 
-This project implements Holt-Winters forecasting techniques to predict electricity peak demand patterns. The Holt-Winters method is particularly effective for time series data that exhibits both trend and seasonal patterns, making it ideal for electricity consumption forecasting.
+This project implements Holt-Winters and SARIMAX forecasting techniques to predict electricity peak demand patterns. The Holt-Winters and SARIMAX methods are particularly effective for time series data that exhibits both trend and seasonal patterns, making them ideal for electricity consumption forecasting.
 
 ## Features
 
 - **Time Series Analysis**: Comprehensive analysis of electricity demand patterns
-- **Holt-Winters Method**: Implementation of exponential smoothing with trend and seasonal components
+- **Holt-Winters and SARIMAX Methods**: Implementation of exponential smoothing with trend and seasonal components
 - **Peak Demand Prediction**: Forecasts electricity peak demand for planning and optimization
 - **Data Visualization**: Visual representations of historical data and forecasts
 
